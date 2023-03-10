@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color:rgb(207, 184, 189);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+#calc{
+    width: 400px;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color:rgb(61, 190, 147);
+    color:rgb(17, 14, 15);
+    display: flex;
+    flex-direction: column;
+}
+
+#calc h3{
+    font-size: .9em;
+    font-weight: 300;
+    color:rgb(11, 10, 11);
+}
+
+#operations{
+    
+    text-align: right;
+}
+
+#previous-operation{
+    color:azure;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+#current-operation{
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+
+#buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#buttons-container button{
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 4em;
+    font-size: 1.2em;
+    background-color:aquamarine;
+    cursor: pointer;
+}
+
+#buttons-container .number{
+    background-color:aqua;
+}
+
+#buttons-container button:hover{
+    background-color:blanchedalmond;
+    border-color:bisque;
+}
+
+#buttons-container #equal-btn{
+    background-image: url("../js/doguinho.jpg");
+    background-size: cover;
+    grid-column: span 2;
+    background-color:beige;
+}
+
+#buttons-container #equal-btn:hover{
+    background-color:rgb(238, 208, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
